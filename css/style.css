@@ -1,0 +1,982 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+
+a{
+    text-decoration: none;
+    padding: 0 !important;
+}
+
+ul,
+ol{
+    list-style: none;
+    display: inline-block;
+}
+
+img{
+    vertical-align: middle;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p{
+    margin: 0;
+    padding: 0;
+}
+/*======================================================
+                COMMON CSS PART END
+========================================================*/
+
+
+/*======================================================
+                    MENU PART START
+========================================================*/
+.navbar{
+    background: transparent;
+    padding: 0 !important;
+    position: absolute;
+    width: 100%;
+    z-index: 999;
+}
+
+.menu_fix {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: #000;
+    padding-bottom: 18px;
+}
+
+.navbar-brand img{
+    width: 200px;
+}
+
+.navbar-nav{
+    margin-top: 25px !important;
+}
+
+nav ul li{
+    padding: 10px 15px !important;
+}
+
+nav ul li a{
+    color: #fff;
+    font-size: 20px;
+    font-weight: 600;
+    font-family: 'Nunito', sans-serif;
+    text-transform: capitalize;
+    transition: all linear .4s;
+    -webkit-transition: all linear .4s;
+    -moz-transition: all linear .4s;
+    -ms-transition: all linear .4s;
+    -o-transition: all linear .4s;
+}
+
+nav ul li.active a{
+    color: #ff39dc;
+}
+
+nav ul li a:hover{
+    color: #ff39dc;
+}
+
+.navbar a.menu_button{
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 400;
+    font-family: 'Anton', sans-serif;
+    text-transform: capitalize;
+    margin: 20px 0px 0px 20px;
+    padding: 14px 30px !important;
+    border-radius: 5px;
+    background: #9e4efc;
+    background: -moz-linear-gradient(top, #9e4efc 0%, #570dc8 100%);
+    background: -webkit-linear-gradient(top, #9e4efc 0%, #570dc8 100%);
+    background: linear-gradient(to bottom, #9e4efc 0%, #570dc8 100%);
+    -webkit-box-shadow: 0px 6px 0px 0px rgba(58, 0, 144, 1);
+    -moz-box-shadow: 0px 6px 0px 0px rgba(58, 0, 144, 1);
+    box-shadow: 0px 6px 0px 0px rgba(58, 0, 144, 1);
+    text-shadow: 5px 5px 0px rgba(88, 19, 184, .8);
+}
+
+.navbar a.menu_button:hover{
+    background: #ff39dc;
+    background: -moz-linear-gradient(top, #ff39dc 0%, #a60084 100%);
+    background: -webkit-linear-gradient(top, #ff39dc 0%, #a60084 100%);
+    background: linear-gradient(to bottom, #ff39dc 0%, #a60084 100%);
+    -webkit-box-shadow: 0px 6px 0px 0px rgba(102, 19, 85, 1);
+    -moz-box-shadow: 0px 6px 0px 0px rgba(102, 19, 85, 1);
+    box-shadow: 0px 6px 0px 0px rgba(102, 19, 85, 1);
+    text-shadow: 5px 5px 0px rgba(166, 0, 132, 0.8);
+}
+/*======================================================
+                    MENU PART END
+========================================================*/
+
+
+/*======================================================
+                    BANNER PART START
+========================================================*/
+#banner_part{
+    background: #150035;
+    padding: 200px 0px;
+}
+
+.banner_img img{
+    width: 100%;
+}
+
+.banner_text h4{
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 400;
+    font-family: 'Nunito', sans-serif;
+    text-transform: capitalize;
+}
+
+.banner_text h1{
+    color: #fcb100;
+    font-size: 305px;
+    font-weight: 400;
+    font-family: 'Anton', sans-serif;
+    background: -webkit-linear-gradient(top, #fdb125 45%, #e07e1e 48%, #fcb100 85%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    filter: drop-shadow(0 0 35px #4d0148); 
+    margin-top: -35px;
+}
+
+.banner_text p{
+    text-align: center;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Nunito', sans-serif;
+    margin-top: -30px;
+}
+
+.banner_button{
+    text-align: center;
+}
+
+.banner_button a{
+    text-transform: capitalize;
+    text-decoration: none;
+    display: inline-block;
+    padding: 15px 30px !important;
+    background: #9e4efc;
+    background: -moz-linear-gradient(top, #9e4efc 0%, #570dc8 100%);
+    background: -webkit-linear-gradient(top, #9e4efc 0%, #570dc8 100%);
+    background: linear-gradient(to bottom, #9e4efc 0%, #570dc8 100%);
+    border-radius: 5px;
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 400;
+    font-family: 'Anton', sans-serif;
+    -webkit-box-shadow: 0px 6px 0px 0px rgba(58, 0, 144, 1);
+    -moz-box-shadow: 0px 6px 0px 0px rgba(58, 0, 144, 1);
+    box-shadow: 0px 6px 0px 0px rgba(58, 0, 144, 1);
+    text-shadow: 5px 5px 0px rgba(88, 19, 184, .8);
+    margin-top: 30px;
+}
+
+.banner_button a:hover{
+    background: #ff39dc;
+    background: -moz-linear-gradient(top, #ff39dc 0%, #a60084 100%);
+    background: -webkit-linear-gradient(top, #ff39dc 0%, #a60084 100%);
+    background: linear-gradient(to bottom, #ff39dc 0%, #a60084 100%);
+    -webkit-box-shadow: 0px 6px 0px 0px rgba(102, 19, 85, 1);
+    -moz-box-shadow: 0px 6px 0px 0px rgba(102, 19, 85, 1);
+    box-shadow: 0px 6px 0px 0px rgba(102, 19, 85, 1);
+    text-shadow: 5px 5px 0px rgba(166, 0, 132, 0.8);
+}
+/*======================================================
+                    BANNER PART END
+========================================================*/
+
+
+/*======================================================
+                    GAME PART START
+========================================================*/
+#game_part{
+    background: #0b001b;
+    padding: 100px 0px;
+}
+
+.game_text{
+    text-align: center;
+    padding: 45px 0px;
+    background: linear-gradient(to right, #9e4efc 0%, #570dc8 100%);
+    box-shadow: inset 10px 0px 50px 0px rgba(31, 7, 67, 0.5);
+    filter: drop-shadow(0px 4px 2px rgba(68, 68, 221, 0.7));
+    position: absolute;
+    top: -200px;
+    left: 0px;
+    width: 100%;
+}
+
+.game_text h2{
+    color: #fcb100;
+    font-size: 50px;
+    font-weight: 400;
+    font-family: 'Anton', sans-serif;
+    background: -webkit-linear-gradient(top, #fdb125 45%, #e07e1e 48%, #fcb100 85%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    filter: drop-shadow(0 0 35px #4d0148);
+    margin-bottom: 18px;
+}
+
+.game_text h3{
+    text-transform: capitalize;
+    color: #ffffff;
+    font-size: 32px;
+    font-weight: 400;
+    font-family: 'Anton', sans-serif;
+    margin-bottom: 10px;
+    text-shadow: 5px 5px 0px rgba(88, 19, 184, .8);
+}
+
+.game_text p {
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Nunito', sans-serif;
+}
+
+.game_heading h3{
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 48px;
+    font-weight: 400;
+    font-family: 'Anton', sans-serif;
+    background: -webkit-linear-gradient(bottom, #fdb125 0%, #e07e1e 51%, #fcb100 54%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    filter: drop-shadow(0 0 25px #4d0148);
+    margin: 100px 0 60px 0;
+}
+
+.game_img{
+    position: relative;
+}
+
+.game_img img{
+    width: 100%;
+}
+
+.game_overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.85);
+    opacity: 0;
+    visibility: hidden;
+    transition: all linear .4s;
+    -webkit-transition: all linear .4s;
+    -moz-transition: all linear .4s;
+    -ms-transition: all linear .4s;
+    -o-transition: all linear .4s;
+}
+
+.game_img:hover .game_overlay{
+    visibility: visible;
+    opacity: 1;
+}
+
+.game_overlay h3{
+    color: #fff;
+    font-size: 24px;
+    font-weight: 400;
+    font-family: 'Anton', sans-serif;
+    padding-bottom: 50px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    text-transform: capitalize;
+}
+
+.game_overlay a{
+    display: inline-block;
+    padding: 14px 30px !important;
+    color: #fff;
+    background: #9e4efc;
+    background: -moz-linear-gradient(top, #9e4efc 0%, #570dc8 100%);
+    background: -webkit-linear-gradient(top, #9e4efc 0%, #570dc8 100%);
+    background: linear-gradient(to bottom, #9e4efc 0%, #570dc8 100%);
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: 400;
+    font-family: 'Anton', sans-serif;
+    text-decoration: none;
+    text-transform: capitalize;
+    -webkit-box-shadow: 0px 6px 0px 0px rgba(58, 0, 144, 1);
+    -moz-box-shadow: 0px 6px 0px 0px rgba(58, 0, 144, 1);
+    box-shadow: 0px 6px 0px 0px rgba(58, 0, 144, 1);
+    text-shadow: 5px 5px 0px rgba(88, 19, 184, .8);
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.game_overlay a:hover{
+    background: #ff39dc;
+    background: -moz-linear-gradient(top, #ff39dc 0%, #a60084 100%);
+    background: -webkit-linear-gradient(top, #ff39dc 0%, #a60084 100%);
+    background: linear-gradient(to bottom, #ff39dc 0%, #a60084 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff39dc', endColorstr='#a60084', GradientType=0);
+    -webkit-box-shadow: 0px 6px 0px 0px rgba(102, 19, 85, 1);
+    -moz-box-shadow: 0px 6px 0px 0px rgba(102, 19, 85, 1);
+    box-shadow: 0px 6px 0px 0px rgba(102, 19, 85, 1);
+    text-shadow: 5px 5px 0px rgba(166, 0, 132, 0.8);
+}
+/*======================================================
+                    GAME PART END
+========================================================*/
+
+
+/*======================================================
+                    UNLOCK PART START
+========================================================*/
+#unlock_part{
+    background: #150035;
+    padding: 100px 0px;
+}
+
+.unlock_img img{
+    width: 450px;
+    height: auto;
+}
+
+.unlock_text h2{
+    font-size: 48px;
+    font-weight: 400;
+    font-family: 'Anton', sans-serif;
+    background: -webkit-linear-gradient(bottom, #fdb125 0%, #e07e1e 51%, #fcb100 54%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    filter: drop-shadow(0 0 25px #4d0148);
+    margin-top: 50px;
+}
+
+.unlock_text p{
+    color: #fff;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Nunito', sans-serif;
+    padding-top: 50px;
+}
+
+.unlock_text p span{
+    display: block;
+    margin-top: 20px;
+}
+
+.unlock_text a{
+    margin-top: 25px;
+    text-transform: capitalize;
+    text-decoration: none;
+    display: inline-block;
+    padding: 15px 30px !important;
+    background: #9e4efc;
+    background: -moz-linear-gradient(top, #9e4efc 0%, #570dc8 100%);
+    background: -webkit-linear-gradient(top, #9e4efc 0%, #570dc8 100%);
+    background: linear-gradient(to bottom, #9e4efc 0%, #570dc8 100%);
+    border-radius: 5px;
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 400;
+    font-family: 'Anton', sans-serif;
+    -webkit-box-shadow: 0px 6px 0px 0px rgba(58, 0, 144, 1);
+    -moz-box-shadow: 0px 6px 0px 0px rgba(58, 0, 144, 1);
+    box-shadow: 0px 6px 0px 0px rgba(58, 0, 144, 1);
+    text-shadow: 5px 5px 0px rgba(88, 19, 184, .8);
+}
+
+.unlock_text a:hover{
+    background: #ff39dc;
+    background: -moz-linear-gradient(top, #ff39dc 0%, #a60084 100%);
+    background: -webkit-linear-gradient(top, #ff39dc 0%, #a60084 100%);
+    background: linear-gradient(to bottom, #ff39dc 0%, #a60084 100%);
+    -webkit-box-shadow: 0px 6px 0px 0px rgba(102, 19, 85, 1);
+    -moz-box-shadow: 0px 6px 0px 0px rgba(102, 19, 85, 1);
+    box-shadow: 0px 6px 0px 0px rgba(102, 19, 85, 1);
+    text-shadow: 5px 5px 0px rgba(166, 0, 132, 0.8);
+}
+/*======================================================
+                    UNLOCK PART END
+========================================================*/
+
+
+/*======================================================
+                    PRICE PART START
+========================================================*/
+#price_part{
+    background: #0b001b;
+    padding: 100px 0px;
+}
+
+.price_heading h2{
+    font-size: 48px;
+    font-weight: 400;
+    font-family: 'Anton', sans-serif;
+    background: -webkit-linear-gradient(bottom, #fdb125 0%, #e07e1e 51%, #fcb100 54%);
+    background-clip: border-box;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    filter: drop-shadow(0 0 25px #4d0148);
+    text-transform: capitalize;
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.price{
+    background: #9e4efc;
+    background: -moz-linear-gradient(top, #1e5799 0%, #590fca 0%, #9a4bf9 50%);
+    background: -webkit-linear-gradient(top, #1e5799 0%, #590fca 0%, #9a4bf9 50%);
+    background: linear-gradient(to top, #1e5799 0%, #590fca 0%, #9a4bf9 50%);
+    border-radius: 5px;
+    padding: 50px 0px;
+    position: relative;
+    transition: all linear .5s;
+    -webkit-transition: all linear .5s;
+    -moz-transition: all linear .5s;
+    -ms-transition: all linear .5s;
+    -o-transition: all linear .5s;
+}
+
+.price:hover{
+    transform: translateY(30px);
+}
+
+.price h2{
+    font-size: 20px;
+    color: #fff;
+    font-weight: 600;
+    font-family: 'Nunito', sans-serif;
+    padding: 20px 0;
+    width: 100%;
+    background: -moz-linear-gradient(top, #1e5799 0%, #fb36d7 0%, #aa0288 65%);
+    background: -webkit-linear-gradient(top, #1e5799 0%, #fb36d7 0%, #aa0288 65%);
+    background: linear-gradient(to bottom, #1e5799 0%, #fb36d7 0%, #aa0288 65%);
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+    border-bottom: 6px solid #661355;
+    position: absolute;
+    top: -60px;
+    left: 0;
+    opacity: 0;
+    visibility: hidden;
+    transition: all linear .5s;
+    -webkit-transition: all linear .5s;
+    -moz-transition: all linear .5s;
+    -ms-transition: all linear .5s;
+    -o-transition: all linear .5s;
+}
+
+.price:hover h2{
+    opacity: 1;
+    visibility: visible;
+}
+
+.price h3{
+    color: #fff;
+    font-size: 32px;
+    font-weight: 400;
+    font-family: 'Anton', sans-serif;
+    text-transform: capitalize;
+    margin-bottom: 15px;
+}
+
+.price h4{
+    color: #fff;
+    font-size: 50px;
+    font-weight: 700;
+    font-family: 'Nunito', sans-serif;
+    margin-bottom: 10px;
+}
+
+.price p{
+    color: #fff;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: 'Nunito', sans-serif;
+    position: relative;
+}
+
+.price p:after{
+    position: absolute;
+    content: "";
+    bottom: -15px;
+    left: 0px;
+    width: 100%;
+    height: 1px;
+    background: #6428b4;
+}
+
+.price ul{
+    padding-top: 25px;
+}
+
+.price ul li{
+    color: #fff;
+    font-size: 16px;
+    font-weight: 600;
+    font-family: 'Nunito', sans-serif;
+    padding-top: 18px;
+}
+
+.price a{
+    position: absolute;
+    bottom: -20px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: inline-block;
+    padding: 14px 30px !important;
+    color: #fff;
+    background: #9e4efc;
+    background: -moz-linear-gradient(top, #9e4efc 0%, #570dc8 100%);
+    background: -webkit-linear-gradient(top, #9e4efc 0%, #570dc8 100%);
+    background: linear-gradient(to bottom, #9e4efc 0%, #570dc8 100%);
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: 400;
+    font-family: 'Anton', sans-serif;
+    text-decoration: none;
+    text-transform: capitalize;
+    -webkit-box-shadow: 0px 6px 0px 0px rgba(58, 0, 144, 1);
+    -moz-box-shadow: 0px 6px 0px 0px rgba(58, 0, 144, 1);
+    box-shadow: 0px 6px 0px 0px rgba(58, 0, 144, 1);
+    text-shadow: 5px 5px 0px rgba(88, 19, 184, .8);
+    margin-top: 12px;
+}
+
+.price:hover a{
+    background: #ff39dc;
+    background: -moz-linear-gradient(top, #ff39dc 0%, #a60084 100%);
+    background: -webkit-linear-gradient(top, #ff39dc 0%, #a60084 100%);
+    background: linear-gradient(to bottom, #ff39dc 0%, #a60084 100%);
+    -webkit-box-shadow: 0px 6px 0px 0px rgba(102, 19, 85, 1);
+    -moz-box-shadow: 0px 6px 0px 0px rgba(102, 19, 85, 1);
+    box-shadow: 0px 6px 0px 0px rgba(102, 19, 85, 1);
+    text-shadow: 5px 5px 0px rgba(166, 0, 132, 0.8);
+}
+/*======================================================
+                    PRICE PART END
+========================================================*/
+
+
+/*======================================================
+                    FAQ PART START
+========================================================*/
+#faq_part{
+    background: #150035;
+    padding: 100px 0px;
+}
+
+.accordion_heading h3{
+    font-size: 40px;
+    font-weight: 400;
+    font-family: 'Anton', sans-serif;
+    background: -webkit-linear-gradient(bottom, #fdb125 0%, #e07e1e 40%, #fcb100 45%);
+    background-clip: border-box;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    filter: drop-shadow(0 0 25px #4d0148);
+    margin-bottom: 80px;
+    position: relative;
+}
+
+.accordion_heading h3:after{
+    position: absolute;
+    content: "";
+    bottom: -30px;
+    left: 0px;
+    width: 100%;
+    height: 2px;
+    background: #000;
+    background: linear-gradient (to bottom, #000 67%, #281357 50%);
+}
+
+.card{
+    background: transparent;
+}
+
+.add_border{
+    border: 1px solid #fcb100 !important;
+}
+
+.card button{
+    width: 600px;
+}
+
+.card button span{
+    float: left;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 400;
+    font-family: 'Nunito', sans-serif;
+}
+
+.card button i{
+    float: right;
+    color: #fff;
+}
+
+.card-body{
+    color: #fff;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Nunito', sans-serif;
+}
+
+.tournament_heading h3{
+    font-size: 40px;
+    font-weight: 400;
+    font-family: 'Anton', sans-serif;
+    background: -webkit-linear-gradient(bottom, #fdb125 0%, #e07e1e 40%, #fcb100 45%);
+    background-clip: border-box;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    filter: drop-shadow(0 0 25px #4d0148);
+    margin-bottom: 80px;
+    position: relative;
+}
+
+.tournament_heading h3:after{
+    position: absolute;
+    content: "";
+    bottom: -30px;
+    left: 0px;
+    width: 100%;
+    height: 2px;
+    background: #000;
+}
+
+.remain_heading h4{
+    float: left;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 600;
+    font-family: 'Nunito', sans-serif;
+    margin-top: 25px;
+}
+
+.remain_heading ul{
+    float: right;
+    margin-bottom: 30px;
+}
+
+.remain_heading ul li{
+    float: left;
+    width: 80px;
+    height: 80px;
+    border: 1px solid #fcb100;
+    border-radius: 5px;
+    text-align: center;
+    margin-left: 10px;
+    padding-top: 10px;
+}
+
+.remain_heading ul li span{
+    display: block;
+    color: #fcb100;
+    font-size: 20px;
+    font-weight: 600;
+    font-family: 'Nunito', sans-serif;
+}
+
+.nicescroll{
+    height: 290px;
+    overflow: hidden;
+}
+
+.scroll{
+    text-align: center;
+    border-bottom: 2px solid #310059;
+    padding: 15px 25px 15px 0px;
+    
+}
+
+.scroll .player_name{
+    float: left;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Nunito', sans-serif;
+}
+
+.scroll .player_country{
+    color: #fff;
+}
+
+.scroll .player_amount{
+    float: right;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Nunito', sans-serif;
+}
+/*=====================================================
+                    FAQ PART END
+========================================================*/
+
+
+/*======================================================
+                    OFFER PART START
+========================================================*/
+#offer_part{
+    background: #9e4efc;
+    background: -moz-linear-gradient(top, #9e4efc 0%, #570dc8 100%);
+    background: -webkit-linear-gradient(top, #9e4efc 0%, #570dc8 100%);
+    background: linear-gradient(to bottom, #9e4efc 0%, #570dc8 100%);
+    -webkit-box-shadow: 0px 6px 0px 0px rgba(58, 0, 144, 1);
+    -moz-box-shadow: 0px 6px 0px 0px rgba(58, 0, 144, 1);
+    box-shadow: 0px 6px 0px 0px rgba(58, 0, 144, 1);
+    border-bottom: 6px solid #3a0090;
+    padding: 30px 0px;
+}
+
+.subscribe h3{
+    font-size: 40px;
+    font-weight: 400;
+    font-family: 'Anton', sans-serif;
+    color: #fff;
+    text-shadow: 0px 4px 0px rgba(0, 0, 0, 0.5);
+    text-transform: capitalize;
+    margin-bottom: 30px;
+}
+
+.input_box{
+    border: 1px solid #fcb100;
+}
+
+.input_box input{
+    border: none;
+    background: transparent;
+    width: 475px;
+    height: 45px;
+    color: #fff;
+    padding-left: 10px;
+}
+
+.input_box button{
+    outline: none;
+    border: none;
+    width: 58px;
+    height: 45px;
+    border-left: 1px solid #fcb100;
+    background: transparent;
+}
+
+.payment h3{
+    font-size: 40px;
+    font-weight: 400;
+    font-family: 'Anton', sans-serif;
+    color: #fff;
+    text-shadow: 0px 4px 0px rgba(0, 0, 0, 0.5);
+    text-transform: capitalize;
+    margin-bottom: 30px;
+}
+
+.payment ul li{
+    display: inline-block;
+    margin-right: 12px;
+}
+/*======================================================
+                    OFFER PART END
+========================================================*/
+
+
+/*======================================================
+                    FOOTER PART START
+========================================================*/
+#footer_part{
+    background: #121212;
+    padding: 50px 0px;
+}
+
+.about h3{
+    font-size: 30px;
+    font-weight: 400;
+    font-family: 'Anton', sans-serif;
+    color: #fff;
+    text-transform: capitalize;
+    margin-bottom: 30px;
+}
+
+.about p{
+    color: #fff;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Nunito', sans-serif;
+    margin-bottom: 30px;
+}
+
+.about ul li{
+    display: inline-block;
+    margin-right: 15px;
+}
+
+.about ul li a i{
+    font-size: 20px;
+    background: #9e4efc;
+    background: -moz-linear-gradient(top, #9e4efc 0%, #570dc8 100%);
+    background: -webkit-linear-gradient(top, #9e4efc 0%, #570dc8 100%);
+    background: linear-gradient(to bottom, #9e4efc 0%, #570dc8 100%);
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    color: #fff;
+    text-shadow: 0px 4px 0px rgba(0, 0, 0, 0.5);
+    -webkit-box-shadow: 0px 5px 0px 0px rgba(58, 0, 144, 1);
+    -moz-box-shadow: 0px 5px 0px 0px rgba(58, 0, 144, 1);
+    box-shadow: 0px 5px 0px 0px rgba(58, 0, 144, 1);
+}
+
+.about ul li a i:hover{
+    background: #ff39dc;
+    background: -moz-linear-gradient(top, #ff39dc 0%, #a60084 100%);
+    background: -webkit-linear-gradient(top, #ff39dc 0%, #a60084 100%);
+    background: linear-gradient(to bottom, #ff39dc 0%, #a60084 100%);
+    -webkit-box-shadow: 0px 6px 0px 0px rgba(102, 19, 85, 1);
+    -moz-box-shadow: 0px 6px 0px 0px rgba(102, 19, 85, 1);
+    box-shadow: 0px 6px 0px 0px rgba(102, 19, 85, 1);
+}
+
+.link h3{
+    font-size: 30px;
+    font-weight: 400;
+    font-family: 'Anton', sans-serif;
+    color: #fff;
+    text-transform: capitalize;
+    margin-bottom: 30px;
+}
+
+.link ul{
+    margin-right: 34px;
+}
+
+.link ul li{
+    margin-bottom: 20px;
+}
+
+.link ul li a{
+    color: #fff;
+    font-size: 16px;
+    font-weight: 600;
+    font-family: 'Nunito', sans-serif;
+    text-transform: capitalize;
+    transition: all linear .4s;
+    -webkit-transition: all linear .4s;
+    -moz-transition: all linear .4s;
+    -ms-transition: all linear .4s;
+    -o-transition: all linear .4s;
+}
+
+.link ul li a:hover{
+    color: #ff39dc;
+}
+
+.info h3{
+    font-size: 30px;
+    font-weight: 400;
+    font-family: 'Anton', sans-serif;
+    color: #fff;
+    text-transform: capitalize;
+    margin-bottom: 30px;
+}
+
+.sequrity_img{
+    position: relative;
+    margin-bottom: 30px;
+}
+
+.sequrity_img p{
+    color: #fff;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Nunito', sans-serif;
+    display: block;
+    position: absolute;
+    top: 10px;
+    left: 85px;
+}
+
+.sequrity_img p span{
+    display: block;
+}
+/*======================================================
+                    FOOTER PART END
+========================================================*/
+
+
+/*======================================================
+                    COPYRIGHT PART START
+========================================================*/
+#copyright_part{
+    background: #0b0b0b;
+    padding: 10px 0px;
+}
+
+.copyright p{
+    text-align: center;
+    color: #868686;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: 'Nunito', sans-serif;
+    text-transform: capitalize;
+}
+/*======================================================
+                    COPYRIGHT PART END
+========================================================*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

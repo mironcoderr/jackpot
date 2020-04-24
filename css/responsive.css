@@ -1,0 +1,570 @@
+@media (max-width:575px){
+    
+    /*=======================================
+                MENU PART START
+    ========================================*/
+    .navbar-brand{
+        margin-left: 20px;
+    }
+    
+    .menu_fix {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: #000;
+    padding-bottom: 18px;
+}
+    .navbar button i{
+        color: #ff39dc;
+        text-align: center;
+        margin-top: 60px;
+        font-size: 25px;
+    }
+    .navbar ul{
+        text-align: center;
+        margin-top: 0px !important;
+        margin-bottom: 25px !important;
+    }
+    .main_menu{
+        background: #6100d1;
+    }
+    nav ul li a{
+        font-size: 16px;
+    }
+    .navbar a.menu_button{
+        font-size: 16px;
+        display: inline-block;
+        margin: 0px 10px 40px 0px;
+    }
+    nav{
+        text-align: center;
+    }
+    /*=======================================
+                MENU PART END
+    ========================================*/
+    
+    
+    /*=======================================
+                BANNER PART START
+    ========================================*/
+    .banner_img{
+        margin-top: -60px;
+        margin-bottom: 30px;
+    }
+    .banner_text h4{
+        margin-bottom: 10px;
+        text-align: center;
+    }
+    .banner_text h1{
+        font-size: 195px;
+        text-align: center;
+    }
+    #banner_part{
+        padding: 200px 0px 100px;
+    }
+    /*=======================================
+                BANNER PART END
+    ========================================*/
+    
+    
+    /*=======================================
+                GAME PART START
+    ========================================*/
+    .game_text{
+        position: inherit;
+        top: 0;
+        left: 0;
+        margin-bottom: 40px;
+    }
+    .p_inherit{
+        padding: 0px 15px !important;
+    }
+    .game_heading h3{
+        margin-top: 50px;
+    }
+    .game_img img{
+        margin-bottom: 30px;
+    }
+    .unlock_text p{
+        padding-top: 20px;
+    }
+    #game_part{
+        padding: 0px;
+    }
+    /*=======================================
+                GAME PART END
+    ========================================*/
+    
+    
+    /*=======================================
+                UNLOCK PART START
+    ========================================*/
+    .unlock_img img{
+        width: 100%;
+    }
+    .unlock_text h2{
+        margin-top: 15px;
+    }
+    #unlock_part{
+        padding: 100px 0px 30px;
+    }
+    /*=======================================
+                UNLOCK PART END
+    ========================================*/
+    
+    
+    /*=======================================
+                PRICE PART START
+    ========================================*/
+    .price_heading h2{
+        margin-bottom: 10px;
+    }
+    .price a{
+        font-size: 16px;
+    }
+    .price{
+        margin-bottom: 70px;
+    }
+    #price_part{
+        padding: 100px 0px 0px;
+    }
+    /*=======================================
+                PRICE PART END
+    ========================================*/
+    
+    
+    /*=======================================
+                FAQ PART START
+    ========================================*/
+    .accordion_heading h3{
+        margin-bottom: 60px;
+    }
+    .tournament_heading h3{
+        margin-bottom: 60px;
+        margin-top: 60px;
+    }
+    .btn{
+        padding: 0 !important;
+    }
+    .card-header{
+        padding: 0 !important;
+    }
+    .card button span{
+        font-size: 13px;
+    }
+    .card-body{
+        font-size: 14px;
+    }
+    .remain_heading ul{
+        float: left;
+    }
+    .remain_heading h4{
+        margin-bottom: 18px;
+    }
+    /*=======================================
+                FAQ PART END
+    ========================================*/
+    
+    
+    /*=======================================
+                OFFER PART START
+    ========================================*/
+    .subscribe h3{
+        margin-bottom: 20px;
+    }
+    .input_box input{
+        width: 238px;
+    }
+    .input_box button{
+        width: 45px;
+    }
+    .payment h3{
+        margin-top: 30px;
+        margin-bottom: 20px;
+    }
+    .payment ul li a img{
+        width: 50px;
+    }
+    .payment ul li{
+        margin-right: 4px;
+    }
+    /*=======================================
+                OFFER PART END
+    ========================================*/
+    
+    
+    /*=======================================
+                FOOTER PART START
+    ========================================*/
+    .about{
+        text-align: center;
+    }
+    .link{
+        text-align: center;
+    }
+    .link h3{
+        margin-top: 50px;
+    }
+    .link ul{
+        margin-right: 21px;
+    }
+    .link ul li a{
+        font-size: 14px;
+    }
+    .info h3{
+        margin-top: 40px;
+        text-align: center;
+    }
+    .sequrity_img{
+        margin-left: 40px;
+    }
+    /*=======================================
+                FOOTER PART END
+    ========================================*/ 
+}
+
+
+
+
+
+@media (min-width:576px) and (max-width:767px){
+    
+    /*=====================================
+               MENU PART START
+    =======================================*/
+    .navbar button i{
+        color: #ff39dc;
+        margin-top: 55px;
+        font-size: 25px;
+    }
+    nav{
+        text-align: center;
+    }
+    .navbar ul{
+        margin-bottom: 20px !important;
+        margin-top: 0px !important;
+    }
+    .main_menu{
+        background: #6100d1;
+    }
+    nav ul li a{
+        font-size: 16px;
+    }
+    .navbar a.menu_button{
+        font-size: 16px;
+        display: inline-block;
+        margin: 0px 10px 40px 0px;
+    }
+    /*=====================================
+               MENU PART END
+    =======================================*/
+    
+    
+    /*=====================================
+               BANNER PART START
+    =======================================*/
+    #banner_part{
+        padding: 150px 0px 200px;
+    }
+    .banner_text h1{
+        text-align: center;
+    }
+    .banner_text h4{
+        margin-left: 30px;
+    }
+    /*=====================================
+               BANNER PART END
+    =======================================*/
+    
+    
+    /*=====================================
+               GAME PART START
+    =======================================*/
+    .game_text{
+        padding: 45px 10px;
+    }
+    .game_text p{
+        font-size: 14px;
+    }
+    .game_heading h3{
+        margin: 150px 0 60px 0;
+    }
+    /*=====================================
+               GAME PART END
+    =======================================*/
+    
+    
+    /*=====================================
+               PRICE PART START
+    =======================================*/
+    #price_part{
+        padding: 100px 0px 30px;
+    }
+    .price{
+        margin-bottom: 80px;
+    }
+    /*=====================================
+               PRICE PART END
+    =======================================*/
+    
+    
+    /*=====================================
+               FAQ PART START
+    =======================================*/
+    .tournament_heading h3{
+        margin-top: 50px;
+    }
+    .card button span{
+        font-size: 18px;
+    }
+    .card-body{
+        font-size: 14px;
+    }
+    /*=====================================
+               FAQ PART END
+    =======================================*/
+    
+    
+    /*=====================================
+               OFFER PART START
+    =======================================*/
+    .input_box input{
+        width: 445px;
+    }
+    .payment h3{
+        margin-top: 50px;
+    }
+    /*=====================================
+               OFFER PART END
+    =======================================*/
+    
+    
+    /*=====================================
+               FOOTER PART START
+    =======================================*/
+    .about{
+        text-align: center;
+    }
+    .about ul{
+        margin-bottom: 80px;
+    }
+    .link ul li a{
+        font-size: 14px;
+    }
+    /*=====================================
+               FOOTER PART END
+    =======================================*/
+    
+}
+/*=========================================================
+
+           RESPONSIVE (576PX)-(767PX) PART END
+
+==========================================================*/
+
+
+
+/*=========================================================
+
+           RESPONSIVE (768PX)-(991PX) PART START
+
+==========================================================*/
+@media (min-width:768px) and (max-width:991px){
+    
+    /*======================================
+                MENU PART START
+    =======================================*/
+    nav a img{
+        position: absolute;
+        top: 0;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    nav ul li {
+        padding: 10px 14px !important;
+    }
+    nav ul li a{
+        font-size: 14px;
+    }
+    .navbar a.menu_button{
+        font-size: 14px;
+        padding: 10px 20px !important;
+    }
+    #navbarNav{
+        margin-top: 100px;
+    }
+    /*======================================
+                MENU PART START
+    =======================================*/
+    
+    
+    /*======================================
+                BANNER PART START
+    =======================================*/
+    #banner_part{
+        padding: 230px 0px 200px;
+    }
+    .banner_text h1{
+        font-size: 220px;
+    }
+    /*======================================
+                BANNER PART END
+    =======================================*/
+    
+    
+    /*======================================
+                GAME PART START
+    =======================================*/
+    .game_text{
+        padding: 45px 10px;
+    }
+    .game_heading h3{
+        margin: 140px 0px 60px;
+    }
+    /*======================================
+                GAME PART END
+    =======================================*/
+    
+    
+    /*======================================
+                UNLOCK PART START
+    =======================================*/
+    .unlock_img img{
+        width: 100%;
+        margin-top: 50px;
+    }
+    .unlock_text h2{
+        margin: 0;
+    }
+    /*======================================
+                UNLOCK PART END
+    =======================================*/
+    
+    
+    /*======================================
+                PRICE PART START
+    =======================================*/
+    .price a{
+        padding: 10px 15px !important;
+        font-size: 14px;
+    }
+    /*======================================
+                PRICE PART END
+    =======================================*/
+    
+    
+    /*======================================
+                FAQ PART START
+    =======================================*/
+    .tournament_heading h3{
+        margin-top: 50px;
+    }
+    /*======================================
+                FAQ PART END
+    =======================================*/
+    
+    
+    /*======================================
+                OFFER PART START
+    =======================================*/
+    .input_box input{
+        width: 265px;
+    }
+    .payment ul li a img{
+        width: 50px;
+    }
+    /*======================================
+                OFFER PART END
+    =======================================*/
+    
+    
+    /*======================================
+                FOTTER PART START
+    =======================================*/
+    .about ul li a i{
+        width: 34px;
+        height: 34px;
+        line-height: 34px;
+    }
+    .link ul{
+        margin-right: 19px;
+    }
+    .link ul li a{
+        font-size: 14px;
+    }
+    /*======================================
+                FOTTER PART END
+    =======================================*/
+    
+}
+/*=========================================================
+
+           RESPONSIVE (768PX)-(991PX) PART END
+
+==========================================================*/
+
+
+
+
+/*=========================================================
+
+           RESPONSIVE (992PX)-(1199PX) PART START
+
+==========================================================*/
+@media (min-width:992px) and (max-width:1199px){
+    
+    nav ul li a{
+        font-size: 14px;
+    }
+    .navbar a.menu_button{
+        font-size: 14px;
+        padding: 10px 20px !important;
+    }
+    
+    .price a{
+        font-size: 17px;
+    }
+    
+    .input_box input{
+        width: 385px;
+    }
+    
+}
+/*=========================================================
+
+           RESPONSIVE (992PX)-(1199PX) PART END
+
+==========================================================*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
